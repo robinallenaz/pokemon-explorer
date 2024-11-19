@@ -12,28 +12,14 @@ A modern web application that allows users to explore and learn about Pokemon us
 - **Redux Toolkit**: State management for React applications
 - **Axios**: HTTP client for making API requests
 
-## Approach
+## API Integration
 
-This project was built with a focus on modern React practices and clean architecture:
-
-1. **Component Structure**:
-   - Organized components in a modular fashion
-   - Separated concerns between presentation and logic
-   - Used functional components with hooks
-
-2. **State Management**:
-   - Implemented Redux Toolkit for global state management
-   - Used local state where appropriate with useState
-   - Efficient data fetching and caching strategies
-
-3. **Routing**:
-   - Implemented client-side routing with React Router
-   - Created a clean, intuitive navigation structure
-
-4. **Styling**:
-   - Utilized Material-UI components for consistent design
-   - Custom CSS for specific styling needs
-   - Responsive design for various screen sizes
+The application uses Axios to make AJAX requests to the [PokeAPI](https://pokeapi.co/):
+- Fetches Pokemon data in batches of 20 for efficient loading
+- Implements infinite scrolling for seamless data exploration
+- Retrieves detailed information for each Pokemon including:
+  - Sprites/Images
+  - Types
 
 ## Installation and Usage
 
@@ -53,3 +39,9 @@ This project was built with a focus on modern React practices and clean architec
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Known Issues
+
+- Loading state could be improved for better user experience
+- Need to implement error boundaries for better error handling
+- Mobile responsiveness could be enhanced for smaller screens
