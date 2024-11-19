@@ -1,46 +1,58 @@
-# Getting Started with Create React App and Redux
+# Pokemon Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A modern web application that allows users to explore and learn about Pokemon using the PokeAPI.
 
-## Available Scripts
+## Live Site
 
-In the project directory, you can run:
+[Visit Pokemon Explorer](https://pokemon-explorer-sba.netlify.app)
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js (v18)**: Frontend library for building the user interface
+- **Redux Toolkit**: State management for React applications
+- **React Router (v6)**: Handling navigation and routing
+- **Material-UI (MUI)**: UI component library for a polished, modern look
+- **Axios**: HTTP client for making API requests
+- **React Testing Library**: Testing framework for React components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Approach
 
-### `npm test`
+This project was built with a focus on modern React practices and clean architecture:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Component Structure**:
+   - Organized components in a modular fashion
+   - Separated concerns between presentation and logic
+   - Used functional components with hooks
 
-### `npm run build`
+2. **State Management**:
+   - Implemented Redux Toolkit for global state management
+   - Used local state where appropriate with useState
+   - Efficient data fetching and caching strategies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Routing**:
+   - Implemented client-side routing with React Router
+   - Created a clean, intuitive navigation structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Styling**:
+   - Utilized Material-UI components for consistent design
+   - Custom CSS for specific styling needs
+   - Responsive design for various screen sizes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation and Usage
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
