@@ -10,10 +10,7 @@ A modern web application that allows users to explore and learn about Pokemon us
 
 - **React.js (v18)**: Frontend library for building the user interface
 - **Redux Toolkit**: State management for React applications
-- **React Router (v6)**: Handling navigation and routing
-- **Material-UI (MUI)**: UI component library for a polished, modern look
 - **Axios**: HTTP client for making API requests
-- **React Testing Library**: Testing framework for React components
 
 ## Approach
 
