@@ -1,10 +1,10 @@
-# Pokemon Explorer
+# PokéExplorer
 
 A modern web application that allows users to explore and learn about Pokemon using the PokeAPI.
 
 ## Live Site
 
-[Visit Pokemon Explorer](https://pokemon-explorer-sba.netlify.app)
+[Visit PokéExplorer](https://pokemon-explorer-sba.netlify.app)
 
 ## Technologies Used
 
